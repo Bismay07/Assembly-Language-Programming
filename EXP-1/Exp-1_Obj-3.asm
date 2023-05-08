@@ -1,0 +1,12 @@
+MOV AX , 2000H ;
+MOV DS , AX;
+MOV DI , 3000H;
+MOV AX , [DI];
+INC DI;
+INC DI;
+MOV BX , [DI];
+ADD AX , BX;
+INC DI;
+INC DI;
+MOV [DI] , AX;
+HLT

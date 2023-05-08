@@ -1,0 +1,3 @@
+MOV Ax, 1234H;
+ADD Ax, 5000H;
+HLT
